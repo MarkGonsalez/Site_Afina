@@ -3,4 +3,4 @@
   output_dir = "."
 
 [deploy]
-  start = "gunicorn saitp:app"
+  entry = "gunicorn saitp:app"
