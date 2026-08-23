@@ -1,6 +1,6 @@
 [build]
   command = "pip install -r requirements.txt"
-  output = "."
+  output_dir = "."
 
 [deploy]
   start = "gunicorn saitp:app"
